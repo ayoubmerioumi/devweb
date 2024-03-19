@@ -1,0 +1,42 @@
+h1{
+    color: blue;
+    font-size: 10px;
+}
+p{
+    color: rgb(255, 0, 0);
+    font-size: 8px;
+}
+span{
+    color: rgb(0, 255, 4);
+    font-size: 15px;
+}
+h1:hover{
+    color: aqua;
+    cursor: grab;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 9px 10px -2px;
+}
+.divprincipale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.divhome{
+    display: flex;
+    flex-direction: row;
+
+}
+h3:hover{
+    color:  
+     
+    
+    rgb(0, 255, 0);
+    cursor: grab;
+}
+.h2div{
+    margin-left: 50px;
+}

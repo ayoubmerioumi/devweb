@@ -1,0 +1,50 @@
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.lewla {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.tanya {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.talta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.talta img {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .talta img{
+        width: calc(50% - 10px);    
+    }
+}
+
+.rab3a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Media query for smaller screens (phones) */
+@media screen and (max-width: 768px) {
+    img:nth-child(4) {
+        display: none;
+        /* Hide the fourth image on phones */
+    }
+}
